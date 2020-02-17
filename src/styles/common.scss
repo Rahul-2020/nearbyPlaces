@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+$primary-color: #00c888;
+
+body {
+  color: #222;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+.app {
+  width: 100%;
+}
+
+label {
+  cursor: default;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  color: #222;
+  font-size: 14px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+button {
+  border-radius: 5px;
+  border: 0;
+  background-color: $primary-color;
+  cursor: pointer;
+  color: #222;
+  font-size: 14px;
+  height: 100%;
+  padding: 2px;
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.no-events {
+  pointer-events: none;
+}
+
+.error-text {
+  color: crimson;
+  font-size: 14px;
+}

@@ -1,0 +1,55 @@
+.places-wrapper {
+  display: block;
+}
+
+.input-field {
+  margin: 0 0 0 10px;
+
+  @media (max-width: 340px) {
+    margin: 20px 0;
+  }
+}
+
+.location-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 340px) {
+    flex-direction: column;
+  }
+}
+
+.location-submit {
+  height: 30px;;
+  width: 150px;
+
+  @media (min-width: 340px) {
+    margin-left: 10px;
+  }
+}
+
+.place-container {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 10px 5px;
+  width: 250px;
+  margin: 5px;
+
+  .title {
+    color: $primary-color;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .category-info {
+    margin: 8px 0;
+  }
+}

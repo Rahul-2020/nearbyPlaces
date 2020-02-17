@@ -1,0 +1,18 @@
+.header {
+  background-color: #ccc;
+  font-size: 18px;
+  height: 100px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+
+  .app-logo {
+    height: 80px;
+    pointer-events: none;
+    width: 100px;
+  }
+}

@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import App from './App';
+import Location from '../location';
 
 const setUp = (props={}) => {
-  const component = shallow(<App {...props}/>);
+  const component = shallow(<Location {...props}/>);
   return component
 }
 
-describe("app container", () => {
+describe("Location Component", () => {
   let component;
   
   beforeEach(() => {
@@ -16,5 +16,6 @@ describe("app container", () => {
 
   it("should render without error", () => {
     expect(component.length).toBe(1);
-  })
+  });
+
 })
